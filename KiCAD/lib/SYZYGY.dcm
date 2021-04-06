@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SYZYGY_STD
+D Q Strip® High-Speed Ground Plane Header, 0.80mm Pitch
+F http://suddendocs.samtec.com/catalog_english/qte.pdf
+$ENDCMP
+#
+$CMP SYZYGY_TXR-2
+D 0.50 mm Q Pairs® High-Speed Ground Plane Terminal Strip, Differential Pair
+F https://suddendocs.samtec.com/productspecs/qsh-qth.pdf
+$ENDCMP
+#
+$CMP SYZYGY_TXR-4
+D 0.50 mm Q Pairs® High-Speed Ground Plane Terminal Strip, Differential Pair
+F https://suddendocs.samtec.com/productspecs/qsh-qth.pdf
+$ENDCMP
+#
+#End Doc Library
