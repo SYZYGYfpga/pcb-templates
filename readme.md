@@ -4,7 +4,7 @@ This repository contains schematics, PCB files and part libraries to use as a te
 
 [More Information About SYZYGY](https://syzygyfpga.io/)
 
-![Board Example Image](\KiCAD\SZG-TEMPLATE-STD\images\BoardBottom.PNG)
+![Board Example Image](KiCAD/SZG-TEMPLATE-STD/images/BoardBottom.PNG?raw=true)
 
 ## Template Contains
 
