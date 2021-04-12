@@ -216,7 +216,7 @@ S6
 Text Label 1550 3650 0    50   ~ 0
 S8
 Text Label 1550 3850 0    50   ~ 0
-RS3P
+RX3P
 Text Label 1550 3950 0    50   ~ 0
 RX3N
 Text Label 1550 4150 0    50   ~ 0
