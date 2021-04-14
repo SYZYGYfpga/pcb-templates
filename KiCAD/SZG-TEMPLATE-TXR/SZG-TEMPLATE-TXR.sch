@@ -313,11 +313,11 @@ Wire Wire Line
 	6500 3400 7150 3400
 Wire Wire Line
 	6500 3500 7150 3500
-Text Label 9550 3300 0    50   ~ 0
-MCU_SCL_USCK
-Text Label 9550 3500 0    50   ~ 0
-MCU_MISO
 Text Label 9550 3400 0    50   ~ 0
+MCU_SCL_USCK
+Text Label 9550 3200 0    50   ~ 0
+MCU_MISO
+Text Label 9550 3500 0    50   ~ 0
 MCU_SDA_MOSI
 Wire Wire Line
 	9500 3300 10150 3300
@@ -328,13 +328,13 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR0110
 U 1 1 60652346
-P 9750 3150
-F 0 "#PWR0110" H 9750 3000 50  0001 C CNN
-F 1 "+3.3V" H 9765 3323 50  0000 C CNN
-F 2 "" H 9750 3150 50  0001 C CNN
-F 3 "" H 9750 3150 50  0001 C CNN
-	1    9750 3150
-	1    0    0    -1  
+P 10150 3300
+F 0 "#PWR0110" H 10150 3150 50  0001 C CNN
+F 1 "+3.3V" H 10165 3473 50  0000 C CNN
+F 2 "" H 10150 3300 50  0001 C CNN
+F 3 "" H 10150 3300 50  0001 C CNN
+	1    10150 3300
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0111
@@ -358,10 +358,6 @@ F 3 "~" H 9300 3400 50  0001 C CNN
 	1    9300 3400
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	9500 3200 9750 3200
-Wire Wire Line
-	9750 3200 9750 3150
 Wire Wire Line
 	9500 3700 9750 3700
 Wire Wire Line
@@ -1129,4 +1125,6 @@ F 5 "QTH-020-01-F-D-DP-A" H 2600 3600 50  0001 C CNN "Manufacturer_PN"
 	1    2600 3450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9500 3200 10150 3200
 $EndSCHEMATC
